@@ -4,16 +4,18 @@ int b = 47;
 int c = 13;
 
 if ((a > b) && (a > c))
+{
 
     Console.WriteLine($"Чило а максимальное и равно {a}");
-
+}
 
 else if (b > c)
-
+{
      Console.WriteLine($"Чило b максимальное и равно {b}");
     
-
+}
 
 else
-
+{
     Console.WriteLine($"Чило c максимальное и равно {c}");
+}
